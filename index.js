@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors({origin:"*"}));
 
 app.get("/", (req,res) => {
-    res.send("hiii");s
+    res.send("hiii");
 });
 //sing router
 app.use('/signin',signinRouter);
